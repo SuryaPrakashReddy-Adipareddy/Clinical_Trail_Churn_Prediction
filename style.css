@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('medical-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #4d7caf;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.file-upload, .patient-id-input {
+    margin: 20px 0;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="file"] {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #4d7caf;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #3e628d;
+}
+
+#patient-details-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#patient-details-link a {
+    color: #4d7caf;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#patient-details-link a:hover {
+    color: #3e628d;
+}

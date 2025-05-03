@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Churn Prediction</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Patient Churn Prediction and Recommendations</h1>
+
+        <!-- File Upload Section -->
+        <div class="file-upload">
+            <label for="file-input">Upload Dataset (CSV):</label>
+            <input type="file" id="file-input" accept=".csv">
+        </div>
+
+        <!-- Patient ID Input -->
+        <div class="patient-id-input">
+            <label for="patient-id">Enter Patient ID:</label>
+            <input type="text" id="patient-id" placeholder="e.g., P0001">
+            <button onclick="searchPatient()">Search Patient</button>
+        </div>
+
+        <!-- Redirect to Patient Details Page -->
+        <div id="patient-details-link"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
